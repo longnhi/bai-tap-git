@@ -13,10 +13,16 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	
+	switch(phepToan)
 	{
 		case '-':
 		{
 			cout << "Hieu la: " << hieu(a,b);
+		}
+		case '+':
+		{
+			cout << "Tong la: " << tong(a,b);
 			break;
 		}
 		default:
@@ -31,4 +37,6 @@ int main()
 
 int hieu(int a, int b){
 	return a - b;
+int tong(int a, int b){
+	return a + b;
 }
