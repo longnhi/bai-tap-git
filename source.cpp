@@ -13,6 +13,22 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	{
+		case '-':
+		{
+			cout << "Hieu la: " << hieu(a,b);
+			break;
+		}
+		default:
+		{
+			cout << "Phep toan khong hop le";
+			break;
+		}
+	}
 	system("pause");
 	return 0;
+}
+
+int hieu(int a, int b){
+	return a - b;
 }
