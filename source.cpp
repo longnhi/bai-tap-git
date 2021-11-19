@@ -49,3 +49,6 @@ int tong(int a, int b){
 int tich(int a, int b){
 	return a*b;
 }
+bool checkChanLe(int x){
+	return(x%2==0)?true:false;
+}
