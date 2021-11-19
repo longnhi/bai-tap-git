@@ -25,6 +25,11 @@ int main()
 			cout << "Tong la: " << tong(a,b);
 			break;
 		}
+		case '*':
+		{
+			cout << "Tich la: " << tich(a,b);
+			break;
+		}
 		default:
 		{
 			cout << "Phep toan khong hop le";
@@ -37,6 +42,10 @@ int main()
 
 int hieu(int a, int b){
 	return a - b;
+}
 int tong(int a, int b){
 	return a + b;
+}
+int tich(int a, int b){
+	return a*b;
 }
